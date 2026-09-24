@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import type { Locale } from "@/i18n/config";
 import { localeShort, locales } from "@/i18n/config";
@@ -9,16 +10,19 @@ export function Portrait({ caption, large = false }: { caption: string; large?: 
         {/* Geometric backdrop */}
         <div aria-hidden className="absolute inset-0" style={{ background: "linear-gradient(160deg,#EFE9DF 0%,#F7F3EC 45%,#E7EDFF 100%)" }} />
         <div aria-hidden className="absolute -top-10 -end-10 size-48 rounded-full" style={{ background: "radial-gradient(circle,#2B5CFF22,transparent 70%)" }} />
+        {/* Real photo */}
+        <Image
+          src="/images/me-portrait.jpg"
+          alt="Marouane El Habhabi"
+          fill
+          className="object-cover"
+          priority
+          sizes="(max-width: 768px) 100vw, 50vw"
+        />
         <div aria-hidden className="absolute bottom-8 start-8 end-8 rounded-2xl border border-line bg-white/70 backdrop-blur px-5 py-4">
           <p className="eyebrow">MEH — 001</p>
           <p className="font-display text-2xl leading-tight mt-1">Marouane<br />El Habhabi</p>
         </div>
-        {/* Initials monogram as portrait placeholder — replace with /images/me-portrait.jpg */}
-        <div aria-hidden className="absolute inset-0 flex items-start justify-center pt-14">
-          <span className="font-display text-[7rem] leading-none text-ink/10 select-none">M</span>
-        </div>
-        {/* Real photo slot: drop file at public/images/me-portrait.jpg then uncomment:
-        <Image src="/images/me-portrait.jpg" alt="..." fill className="object-cover" priority sizes="..." /> */}
       </div>
       <figcaption className="mt-3 text-[13px] text-ink3">{caption}</figcaption>
     </figure>
