@@ -3,6 +3,7 @@
 > Web Developer & Designer focused on building professional websites, web applications, SaaS products, e-commerce solutions, and digital experiences.
 
 🌐 **Portfolio:** https://marouane-portfolio-tau.vercel.app/
+![Portfolio Preview](docs/portfolio-preview.png)
 
 💼 **LinkedIn:** https://www.linkedin.com/in/marouane-el-habhabi-6b63a2340/
 
