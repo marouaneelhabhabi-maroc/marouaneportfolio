@@ -1,36 +1,119 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MAROUANE EL HABHABI — Web Developer & Digital Product Builder
 
-## Getting Started
+> Web Developer & Designer focused on building professional websites, web applications, SaaS products, e-commerce solutions, and digital experiences.
 
-First, run the development server:
+🌐 **Portfolio:** https://marouane-portfolio-tau.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+💼 **LinkedIn:** https://www.linkedin.com/in/marouane-el-habhabi-6b63a2340/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## About
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+I’m a Web Developer & Designer focused on building modern, responsive, and user-friendly digital products.
 
-## Learn More
+I work across the full development lifecycle — from UI/UX design and frontend development to backend integration, deployment, SEO, and continuous improvements.
 
-To learn more about Next.js, take a look at the following resources:
+My work includes:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* 🌐 Professional Websites
+* 💻 Web Applications
+* 🚀 SaaS Products
+* 🛒 E-commerce Websites
+* 📝 WordPress Websites
+* 🎨 UI/UX & Responsive Design
+* ⚡ Performance & SEO
+* ☁️ Deployment & Web Infrastructure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Featured Projects
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### L9A5DMA — Moroccan Services Marketplace
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A Moroccan services marketplace designed and developed to connect customers with local professionals and skilled service providers.
+
+🔗 https://l9a5dma.ma/
+
+### PDF2Wordly — PDF to Word Converter
+
+A web-based SaaS platform that allows users to convert PDF documents into editable Word files online.
+
+🔗 https://pdf2wordly.com/
+
+### StartDownloading — Online Video Downloader
+
+A web-based downloader project focused on providing a simple and responsive experience for downloading online media.
+
+🔗 https://startdownloading.com/
+
+### Land-book — Web Design & Development
+
+A modern web design and development project focused on responsive layouts, user experience, and modern web technologies.
+
+🔗 https://land-book.com/
+
+---
+
+## Technologies
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+* TypeScript
+* React
+* Next.js
+* Tailwind CSS
+
+### Backend & Data
+
+* Python
+* REST APIs
+* Supabase
+* Database Integration
+
+### Platforms & Tools
+
+* Git
+* GitHub
+* Vercel
+* Railway
+* Cloudflare
+* WordPress
+
+---
+
+## What I Do
+
+I build digital solutions for businesses, startups, and individuals, including:
+
+* Business websites
+* Landing pages
+* Web applications
+* SaaS products
+* E-commerce platforms
+* WordPress websites
+* Custom web solutions
+* Website redesigns
+* SEO & performance optimization
+* Deployment and maintenance
+
+---
+
+## Contact
+
+Interested in working together?
+
+🌐 Portfolio: https://marouane-portfolio-tau.vercel.app/
+
+💼 LinkedIn: https://www.linkedin.com/in/marouane-el-habhabi-6b63a2340/
+
+📩 Feel free to reach out for freelance projects, collaborations, or digital product development.
+
+---
+
+## License
+
+This repository contains the source code of my personal portfolio website.
