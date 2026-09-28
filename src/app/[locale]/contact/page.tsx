@@ -32,21 +32,90 @@ export default async function Contact({ params }: { params: Promise<{ locale: st
       <div className="mt-12 grid gap-8 lg:grid-cols-2">
         <Reveal>
           <h2 className="text-[15px] font-semibold">{t.contactPage.direct}</h2>
-          <ul className="mt-4 space-y-3">
-            <li className="flex items-center justify-between rounded-2xl border border-line bg-surface px-5 py-5">
-              <span className="text-[14px] text-ink2">{t.contactCta.phone}</span>
-              <a href={PHONE_HREF} dir="ltr" className="text-lg font-semibold hover:text-accent">{PHONE_DISPLAY}</a>
-            </li>
-            <li className="flex items-center justify-between rounded-2xl border border-line bg-surface px-5 py-5">
-              <span className="text-[14px] text-ink2">{t.contactCta.instagram}</span>
-              <a href={INSTAGRAM_URL} target="_blank" rel="noreferrer" dir="ltr" className="text-lg font-semibold hover:text-accent">{INSTAGRAM_HANDLE}</a>
-            </li>
-            <li>
-              <a href="/Contact.pdf" download className="flex items-center justify-between rounded-2xl bg-night px-5 py-5 text-white">
-                <span className="text-[14px] text-white/70">{t.contactCta.cv}</span><span className="font-semibold">↓ PDF</span>
-              </a>
-            </li>
-          </ul>
+         <ul className="mt-4 space-y-3">
+  <li className="flex items-center justify-between rounded-2xl border border-line bg-surface px-5 py-5">
+    <span className="text-[14px] text-ink2">{t.contactCta.phone}</span>
+    <a
+      href={PHONE_HREF}
+      dir="ltr"
+      className="text-lg font-semibold hover:text-accent"
+    >
+      {PHONE_DISPLAY}
+    </a>
+  </li>
+
+  <li className="flex items-center justify-between rounded-2xl border border-line bg-surface px-5 py-5">
+    <span className="text-[14px] text-ink2">Email</span>
+    <a
+      href="mailto:marouaneelhabhabi@gmail.com"
+      dir="ltr"
+      className="text-lg font-semibold hover:text-accent"
+    >
+      marouaneelhabhabi@gmail.com
+    </a>
+  </li>
+
+  <li className="flex items-center justify-between rounded-2xl border border-line bg-surface px-5 py-5">
+    <span className="text-[14px] text-ink2">WhatsApp</span>
+    <a
+      href="https://wa.me/212774948692"
+      target="_blank"
+      rel="noreferrer"
+      dir="ltr"
+      className="text-lg font-semibold hover:text-accent"
+    >
+      WhatsApp
+    </a>
+  </li>
+
+  <li className="flex items-center justify-between rounded-2xl border border-line bg-surface px-5 py-5">
+    <span className="text-[14px] text-ink2">GitHub</span>
+    <a
+      href="https://github.com/marouaneelhabhabi-maroc"
+      target="_blank"
+      rel="noreferrer"
+      className="text-lg font-semibold hover:text-accent"
+    >
+      GitHub
+    </a>
+  </li>
+
+  <li className="flex items-center justify-between rounded-2xl border border-line bg-surface px-5 py-5">
+    <span className="text-[14px] text-ink2">LinkedIn</span>
+    <a
+      href="https://www.linkedin.com/in/marouane-el-habhabi-6b63a2340/"
+      target="_blank"
+      rel="noreferrer"
+      className="text-lg font-semibold hover:text-accent"
+    >
+      LinkedIn
+    </a>
+  </li>
+
+  <li className="flex items-center justify-between rounded-2xl border border-line bg-surface px-5 py-5">
+    <span className="text-[14px] text-ink2">{t.contactCta.instagram}</span>
+    <a
+      href={INSTAGRAM_URL}
+      target="_blank"
+      rel="noreferrer"
+      dir="ltr"
+      className="text-lg font-semibold hover:text-accent"
+    >
+      {INSTAGRAM_HANDLE}
+    </a>
+  </li>
+
+  <li>
+    <a
+      href="/Contact.pdf"
+      download
+      className="flex items-center justify-between rounded-2xl bg-night px-5 py-5 text-white"
+    >
+      <span className="text-[14px] text-white/70">{t.contactCta.cv}</span>
+      <span className="font-semibold">↓ PDF</span>
+    </a>
+  </li>
+</ul>
           <p className="mt-5 rounded-2xl bg-surface2/70 border border-line px-5 py-4 text-[13.5px] leading-relaxed text-ink2">
             Fez, Morocco · Remote worldwide — {t.footer.location}
           </p>

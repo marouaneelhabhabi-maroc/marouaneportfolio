@@ -11,7 +11,7 @@ export default function ContactForm({ t }: { t: Dict["contactCta"] }) {
     const body = encodeURIComponent(`Name: ${fd.get("name")}\nEmail: ${fd.get("email")}\nType: ${fd.get("type")}\n\n${fd.get("message")}`);
     // No email backend is configured (no address invented): open the visitor's
     // own mail app with the message pre-filled. Later: POST to /api/contact.
-    window.location.href = `mailto:?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:marouaneelhabhabi@gmail.com?subject=${subject}&body=${body}`;
     setSent(true);
   }
   const input = "h-12 w-full rounded-xl border border-line bg-white px-4 text-[15px] text-ink placeholder:text-ink3/70 focus:border-accent focus:outline-none";

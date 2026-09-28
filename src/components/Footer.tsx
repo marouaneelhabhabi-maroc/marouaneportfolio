@@ -1,6 +1,11 @@
 import Link from "next/link";
 import type { Locale } from "@/i18n/config";
-import { INSTAGRAM_URL, INSTAGRAM_HANDLE, PHONE_DISPLAY, PHONE_HREF } from "@/i18n/config";
+import {
+  INSTAGRAM_URL,
+  INSTAGRAM_HANDLE,
+  PHONE_DISPLAY,
+  PHONE_HREF,
+} from "@/i18n/config";
 import type { Dict } from "@/i18n/dictionaries";
 import { getProjects } from "@/i18n/projects";
 import FooterLang from "./FooterLang";
@@ -38,11 +43,82 @@ export default function Footer({ locale, t }: { locale: Locale; t: Dict }) {
           </div>
           <div>
             <p className="eyebrow text-white/40!">{t.footer.contact}</p>
-            <ul className="mt-4 space-y-2.5 text-[14.5px]">
-              <li><a className="text-white/75 hover:text-white" dir="ltr" href={PHONE_HREF}>{PHONE_DISPLAY}</a></li>
-              <li><a className="text-white/75 hover:text-white" href={INSTAGRAM_URL} target="_blank" rel="noreferrer">{INSTAGRAM_HANDLE}</a></li>
-              <li><a className="text-white/75 hover:text-white" href="/Contact.pdf" download>↓ {t.nav.cv} (PDF)</a></li>
-            </ul>
+<ul className="mt-4 space-y-2.5 text-[14.5px]">
+  <li>
+    <a
+      className="text-white/75 hover:text-white"
+      dir="ltr"
+      href={PHONE_HREF}
+    >
+      {PHONE_DISPLAY}
+    </a>
+  </li>
+
+  <li>
+    <a
+      className="text-white/75 hover:text-white"
+      href="mailto:marouaneelhabhabi@gmail.com"
+      dir="ltr"
+    >
+      marouaneelhabhabi@gmail.com
+    </a>
+  </li>
+
+  <li>
+    <a
+      className="text-white/75 hover:text-white"
+      href="https://wa.me/212774948692"
+      target="_blank"
+      rel="noreferrer"
+      dir="ltr"
+    >
+      WhatsApp
+    </a>
+  </li>
+
+  <li>
+    <a
+      className="text-white/75 hover:text-white"
+      href="https://github.com/marouaneelhabhabi-maroc"
+      target="_blank"
+      rel="noreferrer"
+    >
+      GitHub
+    </a>
+  </li>
+
+  <li>
+    <a
+      className="text-white/75 hover:text-white"
+      href="https://www.linkedin.com/in/marouane-el-habhabi-6b63a2340/"
+      target="_blank"
+      rel="noreferrer"
+    >
+      LinkedIn
+    </a>
+  </li>
+
+  <li>
+    <a
+      className="text-white/75 hover:text-white"
+      href={INSTAGRAM_URL}
+      target="_blank"
+      rel="noreferrer"
+    >
+      {INSTAGRAM_HANDLE}
+    </a>
+  </li>
+
+  <li>
+    <a
+      className="text-white/75 hover:text-white"
+      href="/Contact.pdf"
+      download
+    >
+      ↓ {t.nav.cv} (PDF)
+    </a>
+  </li>
+</ul>
           </div>
         </div>
         <div className="mt-14 flex flex-col gap-4 border-t border-white/10 pt-6 text-[13px] text-white/60 sm:flex-row sm:items-center sm:justify-between">
